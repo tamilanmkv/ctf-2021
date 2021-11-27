@@ -1,0 +1,18 @@
+open home page the hind is call cookie
+
+search parameter 
+
+enter some xss payload <img src=x onerror=alert(1)>
+
+xss not trigger tags blocked
+
+enter deffernt payload 
+
+tags are blocked but incase sensitive 
+
+so enter deffernt payload
+
+
+enter the payload with cookie <IMG src=x ONERROR=alert(document.cookie)>
+
+flag is shown: WBCOECTF{{XsS_No_M04r3_La2Z5_mAde}

@@ -1,0 +1,5 @@
+this hint: only spicial agent. the agent like webapplication is user-agent and only allow function disite state one of the client side robots.txt
+
+so go to the robots.txt 
+
+you can see the flag: WBCOECTF{AG@n$_007_G}

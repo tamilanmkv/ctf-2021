@@ -1,0 +1,45 @@
+{% autoescape false %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<style type="text/css">
+		body{
+			background-color: black;
+			color: lightcyan;
+			font-family: monospace;
+			text-align: center;
+		}
+		h1{
+			color: lightgreen;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		form{
+			text-align: center;
+			box-sizing: 100px;
+		}
+		strong{
+			font-family: monospace;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+<h1>Challenge cross site scripting</h1>
+<strong>YoU wIl cAll cookie</strong> 
+<br>
+<br>
+<form action="/xss" method="post">
+	<input type="search" name="search" value="{{xss}}" alt="search" />
+	<button type="search">Click</button>
+	<br>
+	<br>
+	<br>
+	<strong>{{search}}</strong>
+</form>
+</body>
+</html>
+{% endautoescape %}

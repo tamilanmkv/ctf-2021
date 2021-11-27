@@ -1,0 +1,7 @@
+open the home page you can see hipper link there. click the link but nothing happen here
+
+open inspect element then click the link you will see `onclick='submit()'` its look like java script funciton call 
+
+open your console manualy enter the function call `submit()` 
+
+now you can your flag: 'WBCOECTF{"Java_$cr!pt_Alert"}'  

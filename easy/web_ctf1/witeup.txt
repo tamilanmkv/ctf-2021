@@ -1,0 +1,6 @@
+open index.html 
+
+then add view-source: on front of the url than you see 
+the flag 
+
+WBCOECTF{Y0u_g0T_F4st_Fla9}

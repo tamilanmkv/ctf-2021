@@ -1,0 +1,5 @@
+many time webapplication leak tokens leak on javascipt 
+
+so look all javascript files each and every more time internal javascript leak internal data.
+
+you can see flag.js is internal javascript file open the javascipt look the flag: WBCOECTF{jAva_sCr!_pt_FlaG}

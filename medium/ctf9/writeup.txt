@@ -1,0 +1,30 @@
+open the home page its contain solve the challenge and help pj buttons
+
+click sove this challenge 
+admin username password here 
+but not work
+
+now open help pj
+
+its have email pj@ctf
+
+but we dont have last password check view-source
+
+its contain password ctf123
+
+and enter otp 
+
+its contain loot of captcha not the request and response
+
+resetpass page contain response header Onetimepassword: 6112
+
+enter the otp its open new page 
+
+note the point jopraveen cookie here
+
+view source to copy the name and value
+
+join the cookie storage 
+
+now open login page and here the flag
+WBCOECTF{f1nalLy_U_r3cov3reD_PJ's_4cCouN7}

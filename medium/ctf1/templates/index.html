@@ -1,0 +1,22 @@
+from flask import Flask, request, render_template<br>
+from jinja2 import Environment<br>
+
+app = Flask(__name__)<br>
+Jinja2 = Environment()<br>
+
+@app.route("/")<br>
+def home():<br>
+    return render_template("index.html")<br>
+
+@app.route("/page")<br>
+def page():<br>
+<br>
+    name = request.values.get('name')<br>
+    output = Jinja2.from_string('Hello ' + name + '!').render()<br>
+<br>
+    return output<br>
+<br>
+if __name__ == "__main__":<br>
+    app.run(host='0.0.0.0', port=80)<br>
+
+#just view the file flag.txt

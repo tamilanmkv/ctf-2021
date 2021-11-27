@@ -1,0 +1,9 @@
+open home page is login page enter hint in view source page 
+
+login with sql paylod ' or 1=1 --
+
+password #
+
+flag is next page : WBCOECTF{Sq1_pA8S_T4Hn8}
+
+ 

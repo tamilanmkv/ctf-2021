@@ -1,0 +1,6 @@
+open the home page look like google view the source page noting happen all links are #.
+
+but setting page link is hold on 'setting' page link open the link
+
+you got the flag: WBCOECTF{G0_0g_le_Set!!_ng}
+

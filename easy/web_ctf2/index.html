@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top Secret</title>
+	<meta charset="utf-8" >
+	<style>
+		body{
+			background-color: black;
+			font-family: sans-serif;
+		}
+		#heading{
+			text-align: center;
+			color: white;
+			font-size: 40px;
+			font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial ;
+			font-stretch: expanded;
+			margin: 30px
+		}
+		#ins{
+			color: green;
+			font-size: 20px;
+			margin: 20px;
+			shape-margin: 30px;
+			font-size: 20px;
+
+		}
+	</style>
+</head>
+<body>
+<div id="heading">Secret Society</div>
+<p id="ins"></p>
+
+<script>
+var i = 0;
+var txt = 'welcome in our top secret project only spicial agents only allow this mission! \n Find the way! \n good luck agent';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("ins").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter()
+</script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+
+open the page you can see week cookie 
+
+check the cookie check the hash value to hashid tool its base64 decode the hash flag: WBCOECTF{WeeK_c0Ocki$|e}

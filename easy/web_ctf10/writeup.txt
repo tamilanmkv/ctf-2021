@@ -1,0 +1,13 @@
+open home page 
+
+enter mentioned email 
+
+submit
+
+view the source page iframe tag contain reset token
+
+check the token hash is rot13 encription
+
+decrypt again got base64 encription decrypt the code 
+
+got a flag: WBCOECTF{WeeK_cRyPto_A4cS}

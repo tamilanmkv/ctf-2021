@@ -1,0 +1,1 @@
+open the wepage look cookie is spoted checking cookie you see url encoded flag 	'WBCOECTF{You_g0t_c00kiE}'

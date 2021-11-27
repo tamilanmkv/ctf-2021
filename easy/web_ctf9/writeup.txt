@@ -1,0 +1,7 @@
+open index.php
+
+login page view source page is week design bug
+
+view source page leak backend code to front end username mani and password mr_pro
+
+check the flag in source page:WBCOECTF{F34f_H87aKj}

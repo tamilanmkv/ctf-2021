@@ -1,0 +1,7 @@
+open home page the hint in title page is broken auth name tag 
+
+check the source page one input is hidden this parameter value is 2 
+
+change the value 2 to 1 because 1 is admin level user id 
+
+enter name and submit got a flag: WBCOECTF{Br034n_a45K0N}

@@ -1,0 +1,24 @@
+view the home look some basic page 
+
+lets check brute force 
+
+found 2 direcotry
+
+/server_stats
+/login
+
+now check server_stats its Forbidden page
+
+and check login page contain username and password we don't have
+
+let's try 403 bypass methods to view the server_stats
+
+yes its work X-Forwarded-Fox 127.0.0.1
+
+to bypass the link
+
+its contain username password 
+
+enter the username passsword in login page you got a flag
+
+WBCOECTF{N454_B4r8_f06C3}

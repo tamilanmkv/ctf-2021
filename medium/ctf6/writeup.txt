@@ -1,0 +1,37 @@
+open home page 
+
+
+you will see some one hacker other users location addresss
+
+now check where is leak
+
+open login page
+
+enter the defalult password and open the page
+
+now view some user crediantial
+
+one vulnerable leak user meta data
+
+you can see the profile picture 
+
+
+download the image and checkit with exiftool
+
+check the meta data command section 'flag not here'
+
+where is the flag?
+
+now back to valitate page the user contain cookie with user id 
+
+now change 100 to 101
+
+check again same process 
+
+also flag not here 
+
+the final user contain demo1.jpeg
+
+check the process yes flag is here
+
+WBCOECTF{F03Ns4_m4s78t}

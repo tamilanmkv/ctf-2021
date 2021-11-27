@@ -1,0 +1,20 @@
+open home page view souce page view the next page path 
+
+/google
+
+enter the path more option
+
+check one by one but hint is admin loss password so directly click contact to check admin mail and page source path here
+
+cick the path
+
+log file location path view the source path encryped password decryped with base64 decoder and its decimal value of the ascii 
+
+decode the decimal to ascii is "nomoresecret" 
+
+now login the page more log ugly logs we can serach username or else admin mail
+
+now one request request contain the username = admin@ctfweb password="hacktheadmin" and also contain the admin login path "forensis"
+
+enter the admin password go to the contact page flag here
+WBCOECTF{P3N8GA_y48a_N22K4LAm}

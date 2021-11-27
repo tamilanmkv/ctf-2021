@@ -1,0 +1,8 @@
+open home page look the hint in title its idor 
+
+search any name 
+
+every page will have admin user
+
+so enter admin bang admin is high privllage user open check the cookie
+flag here: WBCOECTF{C0ki_c304d}

